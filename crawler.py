@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-crawler_folder.py
+crawler.py
 =================
 Crawl (merayap) SEMUA data yang ada di dalam sebuah folder secara rekursif:
 - Mendata semua file & subfolder (nama, ukuran, tanggal modifikasi, ekstensi)
@@ -13,11 +13,11 @@ Crawl (merayap) SEMUA data yang ada di dalam sebuah folder secara rekursif:
     * summary.txt  -> ringkasan hasil crawl
 
 Cara pakai:
-    python crawler_folder.py <path_folder>
-    python crawler_folder.py ./data --output hasil_crawl --max-size 2097152
+    python crawler.py <path_folder>
+    python crawler.py ./data --output hasil_crawl --max-size 2097152
 
 Contoh (default):
-    python crawler_folder.py .
+    python crawler.py .
 """
 
 import argparse

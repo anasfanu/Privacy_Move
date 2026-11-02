@@ -1,6 +1,6 @@
 # Crawler Folder — Python
 
-Script `crawler_folder.py` untuk crawling (merayap) **semua data** di dalam sebuah folder secara rekursif.
+Script `crawler.py` untuk crawling (merayap) **semua data** di dalam sebuah folder secara rekursif.
 
 ## Fitur
 - ✅ Jalan ke semua subfolder (`os.walk`)
@@ -14,13 +14,13 @@ Script `crawler_folder.py` untuk crawling (merayap) **semua data** di dalam sebu
 
 ```bash
 # Crawl folder saat ini
-python crawler_folder.py
+python crawler.py
 
 # Crawl folder tertentu
-python crawler_folder.py /path/ke/folder
+python crawler.py /path/ke/folder
 
 # Atur folder output & batas ukuran file yang dibaca isinya (byte)
-python crawler_folder.py ./data --output hasil --max-size 1048576
+python crawler.py ./data --output hasil --max-size 1048576
 ```
 
 ## Hasil keluaran (`crawl_output/`)
